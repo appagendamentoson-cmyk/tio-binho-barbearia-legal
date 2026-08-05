@@ -1,0 +1,267 @@
+<title>Termos de Uso — Tio Binho Barbearia</title>
+<style>
+  :root {
+    --bg: #FAFAFA;
+    --surface: #FFFFFF;
+    --ink: #141414;
+    --ink-muted: #5C5C5C;
+    --line: #D6D6D6;
+    --line-soft: #ECECEC;
+    --accent: #141414;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --surface: #191919;
+      --ink: #F2F2F2;
+      --ink-muted: #A3A3A3;
+      --line: #333333;
+      --line-soft: #232323;
+      --accent: #F2F2F2;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121212; --surface: #191919; --ink: #F2F2F2; --ink-muted: #A3A3A3; --line: #333333; --line-soft: #232323; --accent: #F2F2F2;
+  }
+  :root[data-theme="light"] {
+    --bg: #FAFAFA; --surface: #FFFFFF; --ink: #141414; --ink-muted: #5C5C5C; --line: #D6D6D6; --line-soft: #ECECEC; --accent: #141414;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .topbar {
+    border-bottom: 1px solid var(--line);
+    background: var(--surface);
+  }
+  .topbar-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 18px 24px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .brand {
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .doc-tag {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 11px;
+    color: var(--ink-muted);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+  .accent-rule {
+    width: 40px;
+    height: 3px;
+    background: var(--accent);
+    margin-bottom: 28px;
+  }
+  h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 800;
+    font-size: clamp(28px, 5vw, 38px);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin: 0 0 10px;
+    text-wrap: balance;
+  }
+  .meta {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin: 0 0 48px;
+    letter-spacing: 0.02em;
+  }
+  .lede {
+    font-size: 18px;
+    color: var(--ink);
+    margin-bottom: 44px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  section { margin-bottom: 40px; }
+  h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink);
+    margin: 0 0 14px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  h2 .num {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-weight: 500;
+    color: var(--ink-muted);
+    font-size: 13px;
+  }
+  p { margin: 0 0 14px; font-size: 16.5px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 8px; font-size: 16.5px; }
+  strong { font-weight: 700; }
+  .callout {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    color: var(--ink-muted);
+    margin: 0 0 40px;
+  }
+  .callout strong { color: var(--ink); }
+  footer {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 24px 64px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 13px;
+    color: var(--ink-muted);
+    border-top: 1px solid var(--line-soft);
+    padding-top: 24px;
+  }
+  a { color: var(--ink); }
+  @media (max-width: 480px) {
+    main { padding: 40px 18px 72px; }
+  }
+</style>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">Tio Binho Barbearia</span>
+    <span class="doc-tag">Documento legal</span>
+  </div>
+</div>
+
+<main>
+  <div class="accent-rule"></div>
+  <h1>Termos de Uso</h1>
+  <p class="meta">Última atualização: 2 de agosto de 2026 · Válido para o app Tio Binho Barbearia (iOS e Android)</p>
+
+  <p class="lede">
+    Ao criar uma conta ou usar o app da Tio Binho Barbearia, você concorda com as regras abaixo. Elas existem pra
+    deixar claro o que o app faz, o que ele não faz, e o que esperar de cada agendamento.
+  </p>
+
+  <div class="callout">
+    <strong>Resumo rápido:</strong> o app serve pra marcar horário com os profissionais da Tio Binho Barbearia. O
+    pagamento é sempre presencial — nada é cobrado dentro do app.
+  </div>
+
+  <section>
+    <h2><span class="num">01</span> O que o app faz</h2>
+    <p>
+      O app permite visualizar os profissionais e serviços disponíveis nas duas unidades da Tio Binho Barbearia,
+      reservar, reagendar e cancelar horários, acompanhar sua agenda de compromissos e, quando disponível, assinar
+      um plano mensal de corte ilimitado com um profissional específico.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span> Cadastro e conta</h2>
+    <p>
+      Você é responsável por manter suas informações de cadastro corretas e por não compartilhar sua senha. A conta
+      é pessoal e intransferível. Menores de 18 anos devem usar o app com supervisão de um responsável legal.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span> Agendamentos, reagendamentos e cancelamentos</h2>
+    <p>
+      Um horário reservado no app fica confirmado imediatamente, sujeito à disponibilidade real do profissional.
+      Você pode cancelar ou reagendar diretamente pela aba "Agenda" a qualquer momento antes do horário marcado.
+      Pedimos que cancelamentos sejam feitos com a maior antecedência possível, como cortesia com o profissional e
+      com outros clientes que possam querer aquele horário.
+    </p>
+    <p>
+      A barbearia pode, em casos excepcionais (imprevistos do profissional, feriados não previstos, etc.),
+      precisar cancelar ou remarcar um horário já confirmado. Nesse caso, você será avisado assim que possível.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span> Pagamento</h2>
+    <p>
+      O app <strong>não processa pagamentos</strong>. O valor de cada serviço é pago diretamente ao profissional ou
+      na recepção da unidade, no método aceito localmente (dinheiro, cartão, Pix, etc., conforme cada unidade). Os
+      preços exibidos no app são de referência e podem ser ajustados presencialmente em casos de serviços
+      adicionais solicitados no local.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span> Assinaturas de corte ilimitado</h2>
+    <p>
+      Planos de assinatura, quando oferecidos, dão direito a um serviço específico ilimitado com um profissional
+      determinado, mediante pagamento mensal combinado diretamente com a barbearia. Você pode cancelar sua
+      assinatura a qualquer momento pelo app; o cancelamento interrompe os benefícios do plano, sem efeito
+      retroativo sobre cobranças já combinadas.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span> Uso adequado</h2>
+    <p>
+      Pedimos que o app seja usado de boa-fé: não crie contas falsas, não reserve horários sem intenção real de
+      comparecer, e não tente acessar dados de outros usuários ou interferir no funcionamento do app.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span> Disponibilidade do serviço</h2>
+    <p>
+      Fazemos o possível para manter o app disponível e funcionando corretamente, mas não garantimos operação
+      ininterrupta. Instabilidades técnicas, manutenções ou atualizações podem, ocasionalmente, deixar o app
+      temporariamente indisponível.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span> Alterações nestes termos</h2>
+    <p>
+      Podemos atualizar estes termos conforme o app evolui. Mudanças relevantes serão comunicadas dentro do próprio
+      app. O uso continuado do app após uma atualização representa concordância com os novos termos.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">09</span> Lei aplicável</h2>
+    <p>
+      Estes termos são regidos pelas leis brasileiras. Fica eleito o foro da comarca de Cabreúva, SP, para dirimir
+      quaisquer controvérsias decorrentes destes termos.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">10</span> Contato</h2>
+    <p>
+      Dúvidas sobre estes termos podem ser enviadas para
+      <strong><a href="mailto:binho@tiobinhobarbearia.com">binho@tiobinhobarbearia.com</a></strong>.
+    </p>
+  </section>
+</main>
+
+<footer>
+  Tio Binho Barbearia — Cabreúva, SP, Brasil.
+</footer>

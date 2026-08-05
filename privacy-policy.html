@@ -1,0 +1,310 @@
+<title>Política de Privacidade — Tio Binho Barbearia</title>
+<style>
+  :root {
+    --bg: #FAFAFA;
+    --surface: #FFFFFF;
+    --ink: #141414;
+    --ink-muted: #5C5C5C;
+    --line: #D6D6D6;
+    --line-soft: #ECECEC;
+    --accent: #141414;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --surface: #191919;
+      --ink: #F2F2F2;
+      --ink-muted: #A3A3A3;
+      --line: #333333;
+      --line-soft: #232323;
+      --accent: #F2F2F2;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121212; --surface: #191919; --ink: #F2F2F2; --ink-muted: #A3A3A3; --line: #333333; --line-soft: #232323; --accent: #F2F2F2;
+  }
+  :root[data-theme="light"] {
+    --bg: #FAFAFA; --surface: #FFFFFF; --ink: #141414; --ink-muted: #5C5C5C; --line: #D6D6D6; --line-soft: #ECECEC; --accent: #141414;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .topbar {
+    border-bottom: 1px solid var(--line);
+    background: var(--surface);
+  }
+  .topbar-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 18px 24px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .brand {
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .doc-tag {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 11px;
+    color: var(--ink-muted);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+  .accent-rule {
+    width: 40px;
+    height: 3px;
+    background: var(--accent);
+    margin-bottom: 28px;
+  }
+  h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 800;
+    font-size: clamp(28px, 5vw, 38px);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin: 0 0 10px;
+    text-wrap: balance;
+  }
+  .meta {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin: 0 0 48px;
+    letter-spacing: 0.02em;
+  }
+  .lede {
+    font-size: 18px;
+    color: var(--ink);
+    margin-bottom: 44px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink);
+    margin: 0 0 14px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  h2 .num {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-weight: 500;
+    color: var(--ink-muted);
+    font-size: 13px;
+  }
+  p { margin: 0 0 14px; font-size: 16.5px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 8px; font-size: 16.5px; }
+  strong { font-weight: 700; }
+  .callout {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    color: var(--ink-muted);
+    margin: 0 0 40px;
+  }
+  .callout strong { color: var(--ink); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    margin: 0 0 8px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--line-soft);
+    vertical-align: top;
+  }
+  th {
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 11px;
+    color: var(--ink-muted);
+    font-weight: 700;
+  }
+  .table-wrap { overflow-x: auto; margin-bottom: 40px; }
+  footer {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 24px 64px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 13px;
+    color: var(--ink-muted);
+    border-top: 1px solid var(--line-soft);
+    padding-top: 24px;
+  }
+  a { color: var(--ink); }
+  @media (max-width: 480px) {
+    main { padding: 40px 18px 72px; }
+  }
+</style>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">Tio Binho Barbearia</span>
+    <span class="doc-tag">Documento legal</span>
+  </div>
+</div>
+
+<main>
+  <div class="accent-rule"></div>
+  <h1>Política de Privacidade</h1>
+  <p class="meta">Última atualização: 4 de agosto de 2026 · Válida para o app Tio Binho Barbearia (iOS e Android)</p>
+
+  <p class="lede">
+    Esta política explica quais dados o app da Tio Binho Barbearia coleta, para que servem e como você pode
+    controlá-los. Escrevemos em linguagem direta — sem cláusulas escondidas.
+  </p>
+
+  <div class="callout">
+    <strong>Resumo rápido:</strong> seus dados de conta e agendamento ficam guardados num banco de dados na nuvem,
+    protegido por controle de acesso — só você e a equipe da Tio Binho Barbearia responsável pelo seu atendimento
+    conseguem ver suas informações. Não vendemos dados, não mostramos anúncios e não compartilhamos suas informações
+    com ninguém fora da operação da barbearia.
+  </div>
+
+  <section>
+    <h2><span class="num">01</span> Quem somos</h2>
+    <p>
+      A Tio Binho Barbearia opera duas unidades em Cabreúva, SP, e mantém este aplicativo para que clientes agendem
+      cortes e serviços diretamente com os profissionais da casa. O responsável pelo tratamento dos dados coletados
+      pelo app é a própria Tio Binho Barbearia.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span> Quais dados coletamos</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Dado</th><th>Quando</th><th>Para quê</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Nome e e-mail</td><td>Ao criar sua conta</td><td>Identificar você nos agendamentos e permitir contato</td></tr>
+          <tr><td>Senha</td><td>Ao criar sua conta</td><td>Autenticar seu acesso — armazenada de forma criptografada, nunca em texto puro</td></tr>
+          <tr><td>Histórico de agendamentos</td><td>A cada reserva feita</td><td>Mostrar sua agenda e permitir reagendar/cancelar</td></tr>
+          <tr><td>Barbeiros e serviços favoritos</td><td>Quando você marca um favorito</td><td>Sugerir seu próximo agendamento mais rápido</td></tr>
+          <tr><td>Status de assinatura</td><td>Se você assina um plano</td><td>Aplicar o benefício de corte ilimitado</td></tr>
+          <tr><td>Token de notificação push</td><td>Se você permitir notificações no app</td><td>Avisar sobre agendamentos, cancelamentos e lembretes de horário</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      Não coletamos dados de pagamento pelo app — o pagamento é feito presencialmente, diretamente com o profissional
+      ou na recepção da unidade. Também não usamos rastreamento de localização nem SDKs de publicidade.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span> Onde seus dados ficam guardados</h2>
+    <p>
+      Seus dados de conta e agendamento ficam armazenados num banco de dados na nuvem, operado pela
+      <strong>Supabase</strong>. A comunicação entre o app e o banco é sempre criptografada (HTTPS/TLS), e o acesso
+      é restrito por regras de segurança no próprio banco: cada cliente só consegue ver os seus próprios dados, e a
+      equipe da barbearia só vê o necessário para prestar o atendimento.
+    </p>
+    <p>
+      Se você permitir notificações, usamos o serviço de push da <strong>Expo</strong> para entregar essas
+      mensagens ao seu aparelho. Esse serviço recebe apenas um identificador técnico do seu dispositivo (o "token"
+      de notificação) — nunca seu nome, e-mail ou os detalhes do seu agendamento.
+    </p>
+    <p>
+      Supabase e Expo são nossos prestadores de infraestrutura: eles processam esses dados a nosso pedido, sob
+      nossas instruções, e não os usam para nenhuma finalidade própria.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span> Com quem compartilhamos</h2>
+    <p>
+      Não vendemos, alugamos ou compartilhamos seus dados com anunciantes ou corretores de dados. Têm acesso às
+      suas informações:
+    </p>
+    <ul>
+      <li>Você mesmo, dentro do app;</li>
+      <li>
+        Os donos/profissionais da Tio Binho Barbearia responsáveis por atendê-lo — nome, e-mail e histórico de
+        agendamentos, para poder confirmar e prestar o serviço;
+      </li>
+      <li>
+        Supabase e Expo, como prestadores de infraestrutura (banco de dados e envio de notificações), apenas na
+        medida necessária para operar o app.
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span> Seus direitos</h2>
+    <p>Como titular dos dados, sob a Lei Geral de Proteção de Dados (LGPD), você pode a qualquer momento:</p>
+    <ul>
+      <li>Pedir uma cópia dos dados que temos sobre você;</li>
+      <li>Corrigir informações incorretas do seu cadastro;</li>
+      <li>Pedir a exclusão da sua conta e do seu histórico de agendamentos.</li>
+    </ul>
+    <p>
+      Para exercer qualquer um desses direitos, entre em contato pelo e-mail abaixo. Como seus dados ficam
+      guardados na nuvem (seção 3), desinstalar o app não apaga sua conta nem seu histórico — para isso, é preciso
+      pedir a exclusão pelo e-mail de contato.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span> Crianças e adolescentes</h2>
+    <p>
+      O app não é direcionado a menores de 18 anos sem supervisão de um responsável. Agendamentos de menores devem
+      ser feitos ou acompanhados por um responsável legal.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span> Mudanças nesta política</h2>
+    <p>
+      Podemos atualizar esta política conforme o app evolui. Sempre que isso acontecer, atualizaremos a data no
+      topo desta página.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span> Contato</h2>
+    <p>
+      Dúvidas sobre privacidade ou pedidos relacionados aos seus dados podem ser enviados para
+      <strong><a href="mailto:binho@tiobinhobarbearia.com">binho@tiobinhobarbearia.com</a></strong>.
+    </p>
+  </section>
+</main>
+
+<footer>
+  Tio Binho Barbearia — Cabreúva, SP, Brasil.
+</footer>
